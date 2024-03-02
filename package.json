@@ -4,6 +4,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "webpack serve --open",
+    "check:lint": "eslint .",
+    "check:typescript": "tsc -noEmit",
     "build": "webpack"
   },
   "dependencies": {
